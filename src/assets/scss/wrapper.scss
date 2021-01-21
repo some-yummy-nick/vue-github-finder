@@ -1,0 +1,11 @@
+.wrapper {
+    margin: 0 auto
+}
+.wrapper,.wrapper-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+.wrapper-content.wrapper-content--fixed {
+    margin-top: 80px
+}

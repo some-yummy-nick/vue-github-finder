@@ -1,0 +1,44 @@
+.demo {
+    margin: 0 auto;
+    padding-bottom: 0;
+    font-size: 1.2rem
+}
+
+.demo .demo-content {
+    padding: 10px 0;
+    background-color: #fff
+}
+
+.demo h2 {
+    font-size: 1.6rem;
+    padding-bottom: .66rem;
+    text-align: center
+}
+
+.demo .link {
+    margin: 10px auto;
+    text-align: center
+}
+
+.demo a {
+    color: #5c9ce6;
+    border-bottom: 1px solid #5c9ce6
+}
+
+.demo a:hover {
+    color: #2c7ad4
+}
+
+.demo .ul-line li {
+    text-align: left;
+    position: relative;
+    list-style: none;
+    display: flex;
+    padding-left: .625rem
+}
+
+.demo .ul-line li:before {
+    content: "\2013";
+    display: block;
+    margin-right: .625rem
+}

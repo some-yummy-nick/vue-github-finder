@@ -1,0 +1,11 @@
+*, :after, :before {
+    box-sizing: border-box
+}
+
+.hide{
+    display: none !important;
+}
+
+.active{
+    display: block !important;
+}

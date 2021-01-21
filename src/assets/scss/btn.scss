@@ -1,0 +1,38 @@
+.btn {
+    display: inline-block;
+    padding: .8em 2.6em;
+    margin: 20px 0;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+
+    &[disabled]{
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+.btn.btnDefaul {
+    color: #fff;
+    border: 1px solid #333;
+    background-color: #333
+}
+
+.btn.btnPrimary {
+    color: #fff;
+    border: 1px solid #494ce8;
+    background-color: #494ce8
+}
+
+.btn.btnDanger {
+    color: #fff;
+    border: 1px solid #b54040;
+    background-color: #b53f3f
+}
+
+.btn.btnWhite {
+    color: #333;
+    border: 1px solid #fff;
+    background-color: #fff
+}
