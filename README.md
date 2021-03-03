@@ -1,3 +1,5 @@
+![screenshot](https://github.com/some-yummy-nick/vue-github-finder/blob/master/vue-github-finder.png)
+
 # vue-cli
 https://some-yummy-vue-github-finder.netlify.app/
 
